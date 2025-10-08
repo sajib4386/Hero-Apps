@@ -6,7 +6,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
     return (
-        <footer className='bg-[#001931] max-w-[1500px] mx-auto p-10'>
+        <footer className='bg-[#001931] mx-auto p-10'>
             <div className='flex justify-between items-center border-b-2 border-[#1c315d] mb-8'>
                 <div className='flex items-center'>
                     <img src={navImg} alt="" className='w-8 h-8' />

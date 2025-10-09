@@ -1,0 +1,266 @@
+[
+  {
+    "image": "https://images.unsplash.com/photo-1662947852375-0d45b28ff623?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZmFjZWJvb2slMjBsb2dvfGVufDB8fDB8fHww",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "id": 1,
+    "description": "Connect with friends, family, and communities online.",
+    "size": 70,
+    "reviews": 5000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 200000
+      },
+      {
+        "name": "2 star",
+        "count": 100000
+      },
+      {
+        "name": "3 star",
+        "count": 400000
+      },
+      {
+        "name": "4 star",
+        "count": 1200000
+      },
+      {
+        "name": "5 star",
+        "count": 3200000
+      }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1661862649743-2799867c32b0?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdoYXRzYXBwfGVufDB8fDB8fHww",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms",
+    "id": 2,
+    "description": "Send messages, make calls, and share media with friends.",
+    "size": 30,
+    "reviews": 4000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 100000
+      },
+      {
+        "name": "2 star",
+        "count": 50000
+      },
+      {
+        "name": "3 star",
+        "count": 200000
+      },
+      {
+        "name": "4 star",
+        "count": 1000000
+      },
+      {
+        "name": "5 star",
+        "count": 2650000
+      }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611262588024-d12430b98920?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW5zdGFncmFtJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "id": 3,
+    "description": "Share photos, videos, and stories with your friends.",
+    "size": 40,
+    "reviews": 3500000,
+    "ratingAvg": 4.4,
+    "downloads": 4000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 80000
+      },
+      {
+        "name": "2 star",
+        "count": 60000
+      },
+      {
+        "name": "3 star",
+        "count": 150000
+      },
+      {
+        "name": "4 star",
+        "count": 900000
+      },
+      {
+        "name": "5 star",
+        "count": 2200000
+      }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611605698323-b1e99cfd37ea?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8dGlrdG9rfGVufDB8fDB8fHww",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "id": 4,
+    "description": "Create and watch short-form videos.",
+    "size": 50,
+    "reviews": 3800000,
+    "ratingAvg": 4.6,
+    "downloads": 3000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 70000
+      },
+      {
+        "name": "2 star",
+        "count": 50000
+      },
+      {
+        "name": "3 star",
+        "count": 130000
+      },
+      {
+        "name": "4 star",
+        "count": 1000000
+      },
+      {
+        "name": "5 star",
+        "count": 2450000
+      }
+    ]
+  },
+  {
+    "image": "https://static0.howtogeekimages.com/wordpress/wp-content/uploads/2021/06/youtube_hero_1200x675.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 5,
+    "description": "Watch, share, and upload videos online.",
+    "size": 60,
+    "reviews": 4500000,
+    "ratingAvg": 4.7,
+    "downloads": 5000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 90000
+      },
+      {
+        "name": "2 star",
+        "count": 60000
+      },
+      {
+        "name": "3 star",
+        "count": 200000
+      },
+      {
+        "name": "4 star",
+        "count": 1000000
+      },
+      {
+        "name": "5 star",
+        "count": 3000000
+      }
+    ]
+  },
+  {
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb5LOPUgzjbz_m4aVulC-GU5zu-30HBdYnAg&s",
+    "title": "Google Play Store",
+    "companyName": "Google LLC",
+    "id": 6,
+    "description": "Download apps, games, movies, and books.",
+    "size": 25,
+    "reviews": 3000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 50000
+      },
+      {
+        "name": "2 star",
+        "count": 30000
+      },
+      {
+        "name": "3 star",
+        "count": 100000
+      },
+      {
+        "name": "4 star",
+        "count": 800000
+      },
+      {
+        "name": "5 star",
+        "count": 1900000
+      }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611605698335-8b1569810432?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8dHdpdHRlciUyMGxvZ298ZW58MHx8MHx8fDA%3D",
+    "title": "Twitter",
+    "companyName": "X Corp",
+    "id": 7,
+    "description": "Share your thoughts in short messages called tweets.",
+    "size": 35,
+    "reviews": 2800000,
+    "ratingAvg": 4.1,
+    "downloads": 2000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 60000
+      },
+      {
+        "name": "2 star",
+        "count": 40000
+      },
+      {
+        "name": "3 star",
+        "count": 120000
+      },
+      {
+        "name": "4 star",
+        "count": 700000
+      },
+      {
+        "name": "5 star",
+        "count": 1850000
+      }
+    ]
+  },
+  {
+    "image": "https://images.unsplash.com/photo-1611944212129-29977ae1398c?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGlua2VkaW58ZW58MHx8MHx8fDA%3D",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "id": 8,
+    "description": "Network with professionals and explore career opportunities.",
+    "size": 45,
+    "reviews": 1500000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      {
+        "name": "1 star",
+        "count": 20000
+      },
+      {
+        "name": "2 star",
+        "count": 10000
+      },
+      {
+        "name": "3 star",
+        "count": 50000
+      },
+      {
+        "name": "4 star",
+        "count": 300000
+      },
+      {
+        "name": "5 star",
+        "count": 1100000
+      }
+    ]
+  }
+]

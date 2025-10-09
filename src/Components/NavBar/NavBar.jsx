@@ -5,13 +5,30 @@ import gitHubIcon from "../../assets/github_icon.png"
 
 const NavBar = () => {
     const links = <>
-        <NavLink><li className='text-[#9F62F2] font-semibold text-xl'>Home</li></NavLink>
-        <NavLink><li className='text-black text-xl'>Apps</li></NavLink>
-        <NavLink><li className='text-black text-xl'>Installation</li></NavLink>
+        <NavLink
+            to="/"
+            className={({ isActive }) =>
+                `text-xl ${isActive ? 'text-[#9F62F2] underline' : 'text-black'}`
+            }
+        >
+            Home
+        </NavLink>
+
+        <NavLink
+            to="/allApps"
+            className={({ isActive }) =>
+                `text-xl ${isActive ? 'text-[#9F62F2] underline' : 'text-black'}`
+            }
+        >
+            Apps
+        </NavLink>
+
+        <li className='text-black text-xl'>Installation</li>
+
 
     </>
     return (
-        <nav className="navbar shadow-sm mx-auto px-10">
+        <nav className="navbar shadow-sm">
             <div className="navbar-start">
                 <div className="dropdown text-black">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -25,10 +42,12 @@ const NavBar = () => {
                         }
                     </ul>
                 </div>
-                <div className='flex items-center'>
+
+                <NavLink to="/" className='flex items-center'>
                     <img src={navImg} alt="" className='w-10 h-10' />
-                    <a className="btn btn-ghost text-xl text-[#9F62F2]">HERO.IO</a>
-                </div>
+                    <span className="btn btn-ghost text-xl text-[#9F62F2]">HERO.IO</span>
+                </NavLink>
+
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 space-x-4">
@@ -38,7 +57,9 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2]"><span><img src={gitHubIcon} alt="" className='w-5 h-5' /></span>Contribute</a>
+                <a href="https://github.com/sajib4386" target='_blank'>
+                    <span className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2]"><span><img src={gitHubIcon} alt="" className='w-5 h-5' /></span>Contribute</span>
+                </a>
             </div>
         </nav>
     )

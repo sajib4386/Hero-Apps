@@ -1,0 +1,332 @@
+[
+  {
+    "id": 1,
+    "title": "Facebook",
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1200000 },
+      { "name": "5 star", "count": 3200000 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "WhatsApp",
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 2650000 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Instagram",
+    "ratings": [
+      { "name": "1 star", "count": 80000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2200000 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "TikTok",
+    "ratings": [
+      { "name": "1 star", "count": 70000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 130000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 2450000 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "YouTube",
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 3000000 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Google Play Store",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 1900000 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Twitter",
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1850000 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "LinkedIn",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Spotify",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 700000 },
+      { "name": "5 star", "count": 1600000 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Snapchat",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1550000 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Amazon",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 1950000 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Google Maps",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 900000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Netflix",
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 50000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 3100000 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Reddit",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 770000 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Pinterest",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 250000 },
+      { "name": "5 star", "count": 650000 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Zoom",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 1450000 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Slack",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 635000 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Telegram",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 2295000 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Disney+",
+    "ratings": [
+      { "name": "1 star", "count": 60000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 100000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 2400000 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Uber Eats",
+    "ratings": [
+      { "name": "1 star", "count": 50000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 90000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 1700000 }
+    ]
+  },
+  {
+    "id": 21,
+    "title": "HBO Max",
+    "ratings": [
+      { "name": "1 star", "count": 30000 },
+      { "name": "2 star", "count": 20000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1100000 }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Messenger",
+    "ratings": [
+      { "name": "1 star", "count": 40000 },
+      { "name": "2 star", "count": 30000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 1850000 }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Discord",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 450000 },
+      { "name": "5 star", "count": 1500000 }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Apple Music",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1265000 }
+    ]
+  },
+  {
+    "id": 25,
+    "title": "Facebook Lite",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Khan Academy",
+    "ratings": [
+      { "name": "1 star", "count": 5000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 12000 },
+      { "name": "4 star", "count": 120000 },
+      { "name": "5 star", "count": 850000 }
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Dropbox",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 40000 },
+      { "name": "4 star", "count": 200000 },
+      { "name": "5 star", "count": 635000 }
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Duolingo",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1535000 }
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Notion",
+    "ratings": [
+      { "name": "1 star", "count": 15000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 50000 },
+      { "name": "4 star", "count": 300000 },
+      { "name": "5 star", "count": 855000 }
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Canva",
+    "ratings": [
+      { "name": "1 star", "count": 20000 },
+      { "name": "2 star", "count": 15000 },
+      { "name": "3 star", "count": 70000 },
+      { "name": "4 star", "count": 400000 },
+      { "name": "5 star", "count": 1315000 }
+    ]
+  }
+]

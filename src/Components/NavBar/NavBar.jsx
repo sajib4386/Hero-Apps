@@ -1,4 +1,4 @@
-import React  from 'react'
+import React from 'react'
 import navImg from "../../assets/logo.png"
 import { NavLink } from 'react-router'
 import gitHubIcon from "../../assets/github_icon.png"
@@ -15,16 +15,24 @@ const NavBar = () => {
         </NavLink>
 
 
-            <NavLink
-                to="/allApps"
-                className={({ isActive }) =>
-                    `text-xl ${isActive ? 'text-[#9F62F2] underline' : 'text-black'}`
-                }
-            >
-                Apps
-            </NavLink>
+        <NavLink
+            to="/allApps"
+            className={({ isActive }) =>
+                `text-xl ${isActive ? 'text-[#9F62F2] underline' : 'text-black'}`
+            }
+        >
+            Apps
+        </NavLink>
+        <NavLink
+            to="/appList"
+            className={({ isActive }) =>
+                `text-xl ${isActive ? 'text-[#9F62F2] underline' : 'text-black'}`
+            }
+        >
+            Installation
+        </NavLink>
 
-        <li className='text-black text-xl'>Installation</li>
+
 
 
     </>

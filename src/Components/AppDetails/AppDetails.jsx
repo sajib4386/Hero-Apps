@@ -1,34 +1,60 @@
-import React, { Suspense, useState } from "react";
+import React, { Suspense, useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router";
 import downloadIcon from "../../assets/icon-downloads.png";
 import ratingsIcon from "../../assets/icon-ratings.png";
 import reviewsImg from "../../assets/review.png"
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import axios from "axios";
 import RatingsChart from "../RatingsChart/RatingsChart";
+import { addStoredApp, getStoredApp } from "../../utility/appStore";
+import NoAppFound from "../NoAppFound/NoAppFound";
+
+
 
 const AppDetails = () => {
     const { id } = useParams();
     const data = useLoaderData();
+
     const app = data.find((app) => app.id === Number(id));
+
+
+    if (!app) {
+        return <NoAppFound></NoAppFound>;
+    }
+
+    const { image, title, companyName, description, size, downloads, ratingAvg, reviews } = app;
 
 
     const ratingsPromise = axios.get('/ratingsData.json').then(res => res.data)
 
-    const { image, title, companyName, description, size, downloads, ratingAvg, reviews } = app;
+
 
     const [installed, setInstalled] = useState(false);
 
-    const handleInstall = () => {
+
+    useEffect(() => {
+        const storedApps = getStoredApp()
+        const numberId = Number(id);
+        if (storedApps.includes(numberId)) {
+            setInstalled(true);
+        }
+    }, [id]);
+
+
+
+
+
+    const handleInstall = (id) => {
+        addStoredApp(id)
         setInstalled(true);
         toast(`${title} installed successfully!`);
     };
 
-
     return (
 
         <div className="mx-auto mt-10 p-8  rounded-3xl ">
-            <ToastContainer position="top-center" />
+
+          
 
             <div className="flex items-start gap-6 mb-6">
                 <img src={image} alt={title} className="w-72 h-72" />
@@ -58,7 +84,7 @@ const AppDetails = () => {
                     </div>
 
                     <button
-                        onClick={handleInstall}
+                        onClick={() => handleInstall(id)}
                         disabled={installed}
                         className="ml-auto bg-green-500 text-white px-5 py-2 rounded-xl text-xl font-semibold mt-5">
                         {installed ? "Installed" : `Install Now (${size} MB)`}
@@ -67,7 +93,7 @@ const AppDetails = () => {
                 </div>
             </div>
             <Suspense fallback={<span>loading...</span>}>
-                <RatingsChart ratingsPromise = {ratingsPromise}  appId={id}></RatingsChart>
+                <RatingsChart ratingsPromise={ratingsPromise} appId={id}></RatingsChart>
             </Suspense>
 
             <div className="border-b-2 text-gray-300 mt-7"></div>

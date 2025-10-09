@@ -17,11 +17,10 @@ const RatingsChart = ({ ratingsPromise, appId }) => {
 
     return (
         <div className='border-t-2 border-gray-300 p-3'>
-            <h2 className='text-xl font-semibold'>Rattings</h2>
+            <h2 className='text-xl text-black font-semibold'>Rattings</h2>
             <BarChart width={800} height={300} data={appRatings}  layout="vertical">
-                <XAxis type="number" />
+                <XAxis type="number"/>
                 <YAxis type="category" dataKey="name" reversed={true} />
-                <Tooltip></Tooltip>
                 <Bar dataKey="count" fill="orange" barSize={30}/>
             </BarChart>
         </div>

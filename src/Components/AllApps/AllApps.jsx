@@ -1,18 +1,33 @@
 import React, { useEffect, useState } from 'react'
 import AllApp from '../AllApp/AllApp'
-import { useLoaderData, useNavigate } from 'react-router'
+import { useLoaderData } from 'react-router'
 import { CiSearch } from "react-icons/ci";
 import NoAppFound from '../NoAppFound/NoAppFound';
+import Loader from '../Loader/Loader';
 
 const AllApps = () => {
 
     const allApps = useLoaderData()
     const [search, setSearch] = useState('');
+    const [loading, setLoading] = useState(false)
+    const [filteredApps, setFilteredApps] = useState(allApps);
 
 
-    const filteredApps = allApps.filter(app =>
-        app.title.toLowerCase().includes(search.toLowerCase())
-    );
+    useEffect(() => {
+
+        setLoading(true);
+
+        const timer = setTimeout(() => {
+            const filtered = allApps.filter(app =>
+                app.title.toLowerCase().includes(search.toLowerCase())
+            );
+            setFilteredApps(filtered);
+            setLoading(false);
+        }, 150);
+
+        return () => clearTimeout(timer);
+
+    }, [search, allApps]);
 
     return (
         <div className='mb-16'>
@@ -34,18 +49,22 @@ const AllApps = () => {
                     ></input>
                 </div>
 
+                {
+                    loading && <Loader></Loader>
+                }
+
             </div>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5'>
-                {filteredApps.length > 0 ? 
-                (
-                    filteredApps.map(app => <AllApp key={app.id} app={app} />)
-                ) : 
-                (
-                    <div className='col-span-full'>
-                        <NoAppFound></NoAppFound>
-                    </div>
-                )}
+                {filteredApps.length > 0 ?
+                    (
+                        filteredApps.map(app => <AllApp key={app.id} app={app} />)
+                    ) :
+                    (
+                        <div className='col-span-full'>
+                            <NoAppFound></NoAppFound>
+                        </div>
+                    )}
             </div>
 
 

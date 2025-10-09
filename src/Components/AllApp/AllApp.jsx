@@ -8,7 +8,7 @@ const AllApp = ({ app }) => {
     return (
 
         <NavLink to={`/appDetails/${id}`}>
-            <div className="card w-96 shadow-sm border-[1px] border-gray-400 rounded-2xl">
+            <div className="card w-96 shadow-xl rounded-2xl">
                 <figure className='rounded-2xl m-3' >
                     <img src={image} alt="" className='w-80 h-60' />
                 </figure>
@@ -16,7 +16,7 @@ const AllApp = ({ app }) => {
                     <h2 className='text-black text-xl font-semibold'>{title}</h2>
 
                     <div className='flex justify-between items-center gap-3 mt-5'>
-                        <button className='bg-[#F1F5E8] flex items-center gap-2 border-2  p-2 rounded-xl'>
+                        <button className='bg-[#F1F5E8] flex items-center gap-2 p-2 rounded-xl'>
                             <img src={downloadIcon} alt="" className='w-4 h-4' />
                             <span className="text-green-500">{downloads}</span>
                         </button>

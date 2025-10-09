@@ -15,7 +15,7 @@ const Apps = ({ data }) => {
             </div>
             <div className='text-center my-10 '>
                 <NavLink to="/allApps">
-                    <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] w-40 h-14">Show All</button>
+                    <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] w-40 h-14 text-white">Show All</button>
                 </NavLink>
             </div>
         </div>

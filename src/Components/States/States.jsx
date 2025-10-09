@@ -3,8 +3,8 @@ import React from 'react'
 const States = () => {
     return (
         <div className='bg-linear-to-r from-[#632EE3] to-[#9F62F2] p-16'>
-            <p className='text-center text-5xl font-semibold'>Trusted by Millions, Built for You</p>
-            <div className='flex justify-center items-center gap-32 mt-10'>
+            <p className='text-white text-center text-5xl font-semibold'>Trusted by Millions, Built for You</p>
+            <div className='text-gray-200 flex justify-center items-center gap-32 mt-10'>
                 <div className='text-center'>
                     <h1>Total Downloads</h1>
                     <p className='text-7xl font-bold mt-2'>29.6M</p>

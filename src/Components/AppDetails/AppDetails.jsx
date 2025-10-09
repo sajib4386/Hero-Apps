@@ -13,7 +13,7 @@ const AppDetails = () => {
     const app = data.find((app) => app.id === Number(id));
 
 
-    const ratingsPromise = axios.get('ratingsData.json')
+    const ratingsPromise = axios.get('/ratingsData.json').then(res => res.data)
 
     const { image, title, companyName, description, size, downloads, ratingAvg, reviews } = app;
 
@@ -45,12 +45,12 @@ const AppDetails = () => {
                             <p className="text-gray-500 text-xl">Downloads</p>
                             <p className="text-green-600 font-bold text-lg">{downloads}</p>
                         </div>
-                        <div className="text-center">
+                        <div className="text-center ml-10">
                             <img src={ratingsIcon} alt="" className="w-7 h-7 mb-1" />
                             <p className="text-gray-500 text-xl">Average Ratings</p>
                             <p className="text-yellow-500 font-bold text-lg text-start">{ratingAvg}</p>
                         </div>
-                        <div className="text-center">
+                        <div className="text-center ml-10">
                             <img src={reviewsImg} alt="" className="w-7 h-7 mb-1" />
                             <p className="text-gray-500 text-sm">Total Reviews</p>
                             <p className="text-purple-600 font-bold text-lg">{reviews}</p>

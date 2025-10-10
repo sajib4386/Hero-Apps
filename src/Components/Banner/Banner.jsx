@@ -7,9 +7,9 @@ const Banner = () => {
     return (
         <div className='mt-10'>
             <div className='text-center'>
-                <h2 className='text-[#001931] text-7xl font-bold'>We Build <br /><span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h2>
-                <p className='text-[#627382] mt-5 text-xl'>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
-                    <br />
+                <h2 className='text-[#001931] text-3xl md:text-5xl lg:text-7xl font-bold'>We Build <br /><span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps</h2>
+                <p className='text-[#627382] mt-5 text-xl '>At HERO.IO , we craft innovative apps designed to make everyday life simpler, smarter, and more exciting.
+                    <br className='hidden lg:block' />
                     Our goal is to turn your ideas into digital experiences that truly make an impact.</p>
             </div>
 

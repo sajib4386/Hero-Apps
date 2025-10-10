@@ -8,7 +8,7 @@ const AllApp = ({ app }) => {
     return (
 
         <NavLink to={`/appDetails/${id}`}>
-            <div className="card w-96 shadow-xl rounded-2xl">
+            <div className="card w-96 shadow-xl rounded-2xl lg:w-80">
                 <figure className='rounded-2xl m-3' >
                     <img src={image} alt="" className='w-80 h-60' />
                 </figure>

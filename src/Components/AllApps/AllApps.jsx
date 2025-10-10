@@ -31,10 +31,10 @@ const AllApps = () => {
 
     return (
         <div className='mb-16'>
-            <h2 className='text-black text-center text-4xl font-bold mt-20 mb-5'>Our All Applications</h2>
+            <h2 className='text-black text-center text-4xl font-bold mt-20 mb-5 md:p-5'>Our All Applications</h2>
             <p className='text-[#627382] text-center text-2xl'>Explore All Apps on the Market developed by us. We code for Millions</p>
 
-            <div className="flex flex-col md:flex-row justify-between items-center mt-10 gap-4">
+            <div className="flex flex-col md:flex-row justify-between items-center mt-10 gap-4 md:p-5 lg:mr-5 lg:ml-5">
                 <p className="text-xl font-semibold text-black">
                     ( {filteredApps.length} ) App Founds
                 </p>
@@ -55,7 +55,7 @@ const AllApps = () => {
 
             </div>
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 mt-5 justify-items-center md:m-4'>
                 {filteredApps.length > 0 ?
                     (
                         filteredApps.map(app => <AllApp key={app.id} app={app} />)

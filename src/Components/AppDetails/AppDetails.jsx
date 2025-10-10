@@ -54,35 +54,36 @@ const AppDetails = () => {
 
         <div className="mx-auto mt-10 p-8  rounded-3xl ">
 
-          
+
 
             <div className="flex items-start gap-6 mb-6">
-                <img src={image} alt={title} className="w-72 h-72" />
+                <img src={image} alt={title} className="w-72 h-72 md:mt-0 mt-36" />
+
                 <div className="flex-1">
                     <div>
                         <h2 className="text-2xl font-bold text-gray-900">{title}</h2>
-                        <p className="text-black text-sm mb-2">Developed by <span className="font-medium text-[#9F62F2]">{companyName}</span></p>
+                        <p className="text-black text-sm mb-2 mt-2 md:mt-0">Developed by <span className="font-medium text-[#9F62F2]">{companyName}</span></p>
                         <div className="border-b-2 text-gray-300 mt-7"></div>
                     </div>
+                    <div className="flex flex-col md:flex-row items-start md:items-center gap-6 mt-10">
 
-                    <div className="flex items-center gap-6 mt-10">
                         <div className="text-center">
                             <img src={downloadIcon} alt="" className="w-7 h-7 mb-1" />
                             <p className="text-gray-500 text-xl">Downloads</p>
                             <p className="text-green-600 font-bold text-lg">{downloads}</p>
                         </div>
-                        <div className="text-center ml-10">
+                        <div className="md:text-center text-start ml-0 md:ml-10">
                             <img src={ratingsIcon} alt="" className="w-7 h-7 mb-1" />
                             <p className="text-gray-500 text-xl">Average Ratings</p>
                             <p className="text-yellow-500 font-bold text-lg text-start">{ratingAvg}</p>
                         </div>
-                        <div className="text-center ml-10">
+
+                        <div className="md:text-center text-start ml-0 md:ml-10">
                             <img src={reviewsImg} alt="" className="w-7 h-7 mb-1" />
                             <p className="text-gray-500 text-sm">Total Reviews</p>
                             <p className="text-purple-600 font-bold text-lg">{reviews}</p>
                         </div>
                     </div>
-
                     <button
                         onClick={() => handleInstall(id)}
                         disabled={installed}
